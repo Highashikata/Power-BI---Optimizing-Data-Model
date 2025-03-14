@@ -100,8 +100,11 @@ Opt for measures than Calculed Columns.
 
 ### Step 10: Choosing between Import and Direct Query.
 
+### Step 11: Choosign where to Compute the Calculated Column.
 
-
+-  If you have access to the data source, for example, you can modify the SQL Server Database, you can ALTER your VIEW on the DataSource, by adding that column.
+-  Else, you can create your calculated column in Power Query.
+-  Or, at the end if you can't modify your Power Query, you can write DAX to create your calculated column (btw try to create it in the Dim Table instead of the Fact one).
 
 
 
